@@ -1,6 +1,6 @@
 <template>
 	<div id="splash">
-		<img src="../assets/branding/RTFMLogo-04.png">
+		<img src="../../assets/branding/RTFMLogo-04.png">
 	</div>
 </template>
 
