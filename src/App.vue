@@ -1,5 +1,5 @@
 <template>
-	<div id="app">
+	<md-app>
 		<splash/>
 		<md-tabs md-centered>
 			<md-tab id="about" md-label="What we Do">
@@ -24,7 +24,7 @@
 
 		</md-tabs>
 		<md-footer></md-footer>
-	</div>
+	</md-app>
 </template>
 
 <script>

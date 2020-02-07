@@ -1,15 +1,13 @@
 <template>
 	<div id="footer">
 		<md-layout md-align="center" md-gutter="16">
-				<md-layout md-flex="25"><h1>Test</h1></md-layout>
-				<md-layout md-flex="25">Test2</md-layout>
-			
+			Here's some stuff			
 		</md-layout>
 		<md-layout id="footer-copyright" md-align="center" md-gutter="16">
 			<md-layout md-flex="25">
 				<p>© {{ date }} RTFM LLC, All rights reserved.</p>
 			</md-layout>
-			<md-layout md-flex="25">
+			<md-layout md-flex="75">
 				<p><a href="https://github.com/ryanrapini/rtfm">GitHub</a></p>
 			</md-layout>
 		</md-layout>
@@ -17,12 +15,17 @@
 </template>
 
 <script>
+
 export default {
 	name: 'footer',
 	data () {
 		return {
-			msg: 'Welcome to Your Vue.js App'
+			date: ''
 		}
+	},
+	created: function () {
+		var today = new Date()
+		this.date = today.getFullYear()
 	}
 }
 </script>
