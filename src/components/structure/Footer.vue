@@ -7,7 +7,7 @@
 			<md-layout md-flex="25">
 				<p>© {{ date }} RTFM LLC, All rights reserved.</p>
 			</md-layout>
-			<md-layout md-flex="75">
+			<md-layout md-flex="25">
 				<p><a href="https://github.com/ryanrapini/rtfm">GitHub</a></p>
 			</md-layout>
 		</md-layout>
